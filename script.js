@@ -243,20 +243,20 @@
 // Description:
 //  Return an object showing the count of even and odd numbers.
 // Method -1
-let nums = [1, 2, 3, 4, 5, 6];
-let obj ={
-    even : 0,
-    odd : 0
-}
-for(let i=0; i<nums.length; i++){
-    if(nums[i]%2==0){
-        obj.even++
-    }
-    else{
-        obj.odd++
-    }
-}
-console.log(obj)
+// let nums = [1, 2, 3, 4, 5, 6];
+// let obj ={
+//     even : 0,
+//     odd : 0
+// }
+// for(let i=0; i<nums.length; i++){
+//     if(nums[i]%2==0){
+//         obj.even++
+//     }
+//     else{
+//         obj.odd++
+//     }
+// }
+// console.log(obj)
 
 
 // 🧩 Task 17: Remove Falsy Values (Using filter())
